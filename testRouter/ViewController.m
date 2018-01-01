@@ -24,6 +24,9 @@
     
     NSLog(@"4");
     NSLog(@"5");
+    
+    NSLog(@"6");
+    
     NSLog(@"ewtwwt");
     NSLog(@"99999");
     // Do any additional setup after loading the view, typically from a nib.
