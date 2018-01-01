@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ewtwwt");
-    
+    NSLog(@"99999");
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"were");
     NSDate *curr  = [[NSDate alloc] init];
