@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    NSLog(@"123");
     NSDate *curr  = [[NSDate alloc] init];
     NSTimeInterval currnettime = [curr timeIntervalSince1970];
     NSLog(@"%lf",currnettime);
