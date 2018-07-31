@@ -18,6 +18,9 @@
     [super viewDidLoad];
     NSLog(@"two");
     NSLog(@"444");
+    
+    
+    NSLog(@"12");
 }
 
 
