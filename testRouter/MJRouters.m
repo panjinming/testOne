@@ -48,6 +48,8 @@ NSString *const ParagramUserInfo = @"ParagramUserInfo";
     
     [[self shareInstance] addPatternUrl:pattern tohandler:handler];
     
+    NSLog(@"-----1");
+    
 }
 
 -(void)addPatternUrl:(NSString *)pattern tohandler:(MJHander)handler{
