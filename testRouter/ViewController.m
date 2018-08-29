@@ -23,6 +23,9 @@
     NSLog(@"--tag01");
     
     NSLog(@"----002");
+    
+    
+    NSLog(@"----10101");
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
