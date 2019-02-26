@@ -31,6 +31,8 @@
     NSLog(@"-----222");
     
     NSLog(@"------444");
+    
+    NSLog(@"-----66");
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
