@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "User.h"
 
 @interface ViewController ()
 
@@ -16,23 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"two");
-    NSLog(@"444");
     
     
-    NSLog(@"--tag01");
+//    User *ss = [User buildWithblock:^(UserBuild *build) {
+//        build.name = @"测试";
+//    }];
+//
+//
+//    NSLog(@"---%@",ss.name);
     
-    NSLog(@"----002");
+//    int objc_sync_enter(id obj)
     
+    void(*fun)(id,SEL);
+    fun =
     
-    NSLog(@"----10101");
-    
-    
-    NSLog(@"-----222");
-    
-    NSLog(@"------444");
-    
-    NSLog(@"-----66");
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

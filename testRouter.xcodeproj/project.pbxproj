@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB22875D222543D900300F4E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22875C222543D900300F4E /* User.m */; };
 		ABC96B9F1FC5C7BE0062477C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC96B9E1FC5C7BE0062477C /* AppDelegate.m */; };
 		ABC96BA21FC5C7BE0062477C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC96BA11FC5C7BE0062477C /* ViewController.m */; };
 		ABC96BA51FC5C7BE0062477C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC96BA31FC5C7BE0062477C /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB22875B222543D900300F4E /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AB22875C222543D900300F4E /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		ABC96B9A1FC5C7BE0062477C /* testRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC96B9D1FC5C7BE0062477C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABC96B9E1FC5C7BE0062477C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				ABC96BA11FC5C7BE0062477C /* ViewController.m */,
 				ABC96BCF1FC5C7F00062477C /* MJRouters.h */,
 				ABC96BD01FC5C7F00062477C /* MJRouters.m */,
+				AB22875B222543D900300F4E /* User.h */,
+				AB22875C222543D900300F4E /* User.m */,
 				ABC96BA31FC5C7BE0062477C /* Main.storyboard */,
 				ABC96BA61FC5C7BE0062477C /* Assets.xcassets */,
 				ABC96BA81FC5C7BE0062477C /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB22875D222543D900300F4E /* User.m in Sources */,
 				ABC96BA21FC5C7BE0062477C /* ViewController.m in Sources */,
 				ABC96BD11FC5C7F00062477C /* MJRouters.m in Sources */,
 				ABC96BAD1FC5C7BE0062477C /* main.m in Sources */,
