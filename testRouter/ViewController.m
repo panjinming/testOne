@@ -31,6 +31,7 @@
     void(*fun)(id,SEL);
     fun =
     NSLog(@"----5");
+    NSLog(@"--------6");
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
